@@ -9,6 +9,7 @@
 
         private Orientation(){}
 
+        //right
         public Orientation MouvementDextrogyre
         {
             get
@@ -22,6 +23,7 @@
             }
         }
 
+        //left
         public Orientation MouvementSinistrogyre
         {
             get

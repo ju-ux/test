@@ -13,7 +13,6 @@ namespace MarsRover
             _planète = planète;
             _coordonnées = coordonnéesDépart;
             _orientation = orientation;
-
         }
 
         public (Orientation Orientation, Point Position, Point? ObstacleEventuel) Traiter(params IRoverCommande[] commandesATraiter)
@@ -27,7 +26,6 @@ namespace MarsRover
                 if(final.ObstacleEventuel is not null)
                     return (_orientation, _coordonnées, final.ObstacleEventuel);
             }
-
             return (_orientation, _coordonnées, default);
         }
     }

@@ -5,6 +5,5 @@
         Point Canoniser(Point point);
 
         bool PossèdeUnObstacle(Point point);
-
     }
 }

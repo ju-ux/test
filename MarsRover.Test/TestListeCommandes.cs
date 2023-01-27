@@ -43,10 +43,6 @@ namespace MarsRover.Test
 
             // ET qu'un obstacle est présent en (0,2)
             Assert.Equal(new Point(0, 2), etatFinal.ObstacleEventuel);
-
-
-            
-
         }
     }
 }

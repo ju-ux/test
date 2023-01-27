@@ -40,7 +40,5 @@ namespace MarsRover.Test
             // ALORS la position renvoyée est de 0,0
             Assert.Equal(new Point(0, 0), positionFinale);
         }
-
-       
     }
 }
